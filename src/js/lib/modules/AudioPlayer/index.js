@@ -1,3 +1,1 @@
-class AudioPlayer {
-
-}
+class AudioPlayer {}
