@@ -15,7 +15,7 @@ export default defineConfig({
 
   plugins: [
     handlebars({
-      partialDirectory: resolve(__dirname, 'src', 'handlebars', 'partials'),
+      partialDirectory: resolve(__dirname, 'src', 'hbs-partials'),
     }),
   ],
 
