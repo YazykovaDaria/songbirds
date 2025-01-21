@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: var(--color-contrast);
+
+  a {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+
+  a:hover {
+    color: var(--color-dark-contrast);
+    transition: color 0.3s ease;
+  }
+
+  &.footer--quiz {
+    color: var(--color-text-main);
+
+    a:hover {
+      color: var(--color-success-hover);
+      transition: color 0.3s ease;
+    }
+  }
+}

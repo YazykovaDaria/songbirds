@@ -1,0 +1,46 @@
+html {
+  scroll-behavior: smooth;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow-x: hidden;
+  font-weight: 400;
+  font-family: Pacifico, serif;
+  font-style: normal;
+  line-height: 1.5;
+  background-color: var(--color-main);
+
+  &.body--quizz {
+    background-color: var(--color-contrast);
+  }
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.wrapper {
+  width: 100%;
+  min-width: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 10px 20px;
+}
+
+.font-sniglet {
+  font-family: Sniglet, serif;
+}
