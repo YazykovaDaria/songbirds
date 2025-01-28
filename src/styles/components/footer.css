@@ -11,7 +11,8 @@
     align-items: center;
   }
 
-  a:hover {
+  a:hover,
+  a:active {
     color: var(--color-dark-contrast);
     transition: color 0.3s ease;
   }
@@ -19,7 +20,8 @@
   &.footer--quiz {
     color: var(--color-text-main);
 
-    a:hover {
+    a:hover,
+    a:active {
       color: var(--color-success-hover);
       transition: color 0.3s ease;
     }

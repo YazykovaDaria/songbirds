@@ -33,7 +33,8 @@
     font-size: 20px;
   }
 
-  .logo__content:hover {
+  .logo__content:hover,
+  .logo__content:active {
     color: var(--color-success-hover);
     cursor: pointer;
 
@@ -57,7 +58,8 @@
     pointer-events: none;
   }
 
-  span:hover {
+  span:hover,
+  span:active {
     color: var(--color-main);
     cursor: pointer;
     transition: color 0.3s ease;

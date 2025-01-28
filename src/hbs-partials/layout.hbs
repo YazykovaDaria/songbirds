@@ -1,0 +1,11 @@
+<body class="body{{#if isGuizzPage}} body--quizz{{/if}}">
+    {{> sections/header isMainPage=this.isMainPage }}
+
+<main class="main">
+{{> mainContent}}
+</main>
+
+{{> sections/footer isGuizzPage=this.isGuizzPage}}
+
+{{> script}}
+</body>

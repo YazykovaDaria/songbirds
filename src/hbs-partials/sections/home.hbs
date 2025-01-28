@@ -1,0 +1,32 @@
+<section class="home">
+
+<div class="home__bg-animated"></div>
+
+  <div class="wrapper home__wrapper">
+    <div class="section">
+
+
+<div class="home__content">
+<h2 class="home__title" data-lang="quizzName">Song Birds Quiz</h2>
+
+<p data-lang="tryGuess" class="font-sniglet">
+Try to guess the bird by its song
+</p>
+
+<a href="/quizz/">
+{{#> components/button beforeIcon=true dataLang='start' label='Start'}}
+
+  {{#*inline "icon"}}
+    {{> components/bird-icon isMainPage}}
+  {{/inline}}
+
+{{/components/button}}
+</a>
+
+
+
+</div>
+
+    </div>
+  </div>
+</section>

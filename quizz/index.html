@@ -1,15 +1,23 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
+  {{> head }}
+
+  {{#> layout isMainPage=false isGuizzPage=true}}
+
+  {{#*inline "mainContent"}}
+  <p>quiss page</p>
+  {{/inline}}
+
+  {{#*inline "script"}}
+  <script type="module" src="./quizz.js"></script>
+  {{/inline}}
+
+{{/layout}}
+
+  <!-- <body>
     <div id="app">
       quizz page
     </div>
     <script type="module" src="./quizz.js"></script>
-  </body>
+  </body> -->
 </html>

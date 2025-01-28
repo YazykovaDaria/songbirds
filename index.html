@@ -2,13 +2,16 @@
 <html lang="en">
   {{> head }}
 
-  <body class="body">
+  {{#> layout isMainPage=true isGuizzPage=false}}
 
-    {{> header isMainPage=true}}
+  {{#*inline "mainContent"}}
+  {{> sections/home }}
 
+  {{/inline}}
 
-<main class="main">main птицы тест</main>
-{{> footer}}
-<script type="module" src="./main.js"></script>
-  </body>
+  {{#*inline "script"}}
+  <script type="module" src="./main.js"></script>
+  {{/inline}}
+
+{{/layout}}
 </html>

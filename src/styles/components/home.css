@@ -1,0 +1,33 @@
+.home {
+  height: 100%;
+
+  .home__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .home__bg-animated {
+  }
+
+  .home__content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+
+    a {
+      margin-top: 20px;
+    }
+  }
+
+  .home__title {
+    max-width: 400px;
+    font-size: 64px;
+    line-height: 137%;
+  }
+}

@@ -1,0 +1,13 @@
+<button class="btn" {{#if isDisabled}} disabled {{/if}}>
+
+{{#if beforeIcon}}
+{{> icon}}
+{{/if}}
+
+<span data-lang={{dataLang}}>{{label}}</span>
+
+{{#if afterIcon}}
+{{> icon}}
+{{/if}}
+
+</button>
