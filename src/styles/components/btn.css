@@ -1,0 +1,26 @@
+.btn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 20px 40px;
+  color: var(--color-contrast);
+  font-size: 40px;
+  line-height: 135%;
+  text-align: center;
+  background-color: var(--color-success);
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+
+  &:hover,
+  &:active {
+    background-color: var(--color-success-pressed);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  &:disabled {
+    background-color: var(--color-placeholder);
+  }
+}
